@@ -6,16 +6,16 @@ class HowManyDaysUntil < Formula
   
     on_macos do
       if Hardware::CPU.intel?
-        url "https://github.com/LetsMelon/how_many_days_until/releases/download/1.0.0/how_many_days_until_1_0_0_darwin_x86_64.zip"
-        sha256 "68ab6a7a020c17b31ea8d0214c409d126e6e2493950fa36f10e9559a3950d74c"
+        url "https://github.com/LetsMelon/how_many_days_until/releases/download/1.0.0/how_many_days_until_1_0_0_darwin_x86_64.tar.gz"
+        sha256 "49eda88e82fba50dac15253bdbeb0dae31eb6f935bfd439635164dc18ddfbf10"
   
         def install
           bin.install "how_many_days_until"
         end
       end
       if Hardware::CPU.arm?
-        url "https://github.com/LetsMelon/how_many_days_until/releases/download/1.0.0/how_many_days_until_1_0_0_darwin_aarch64.zip"
-        sha256 "537836b0245c45a8a49ad7261216dd8a3f9be0c3ca559047bbae86b2fc7f3ad7"
+        url "https://github.com/LetsMelon/how_many_days_until/releases/download/1.0.0/how_many_days_until_1_0_0_darwin_aarch64.tar.gz"
+        sha256 "4d2a6ad35aa5d1fbbd67fc30f00995674b89cbcf1eb97c545e315da0886482c3"
   
         def install
           bin.install "how_many_days_until"
